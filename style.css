@@ -79,13 +79,25 @@ footer > div:nth-child(2) {
 
 }
 
-
-
-
-
 @media screen and (max-width: 500px) {
 
+  footer > div a {
+    float: left;
+    clear: left;
+    margin: 16px 0 0 0;
+  }
 
+  footer > div::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  footer > div:nth-child(2) {
+    margin: 24px 0 0 0;
+    padding: 10px 0 20px;
+    border-top: 1px solid rgba(95,87,75,.3);
+  }
 
 }
 
