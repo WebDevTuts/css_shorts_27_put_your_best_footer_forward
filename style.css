@@ -64,6 +64,10 @@ footer > div:nth-child(1) a:nth-child(1) {
   float: none;
 }
 
+footer > div:nth-child(2) {
+  margin: 14px 0 0 0;
+}
+
 @media screen and (max-width: 700px) {
 
 
